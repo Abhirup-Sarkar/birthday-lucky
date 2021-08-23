@@ -1,12 +1,17 @@
-var dateOfBirth = document.querySelector("#date-of-birth"); 
+var dateOfBirth = document.querySelector("#date-of-birth");
 var luckyNumber = document.querySelector("#lucky-number");
 var checkButton = document.querySelector("#birthday-lucky");
 
-dateOfBirth = dateOfBirth.replaceAll('-',' ');
-function sumOfDigits(){
-    
+
+
+function sumOfDigits(n){
+
 }
 
-checkButton.addEventListener("click", function checkBirthdayLucky(){
-    console.log("clicked")
-})
+function checkBirthdayIsLucky() {
+    var dob = dateOfBirth.value;
+    dob = dob.replaceAll("-", "");
+    console.log(dob)
+}
+
+checkButton.addEventListener("click", checkBirthdayIsLucky);
