@@ -6,8 +6,9 @@ var checkButton = document.querySelector("#birthday-lucky");
 function checkBirthdayIsLucky() {
     var dob = dateOfBirth.value;
     dob = dob.replaceAll("-", "");
-    console.log(dob);
     var sum = sumOfDigits(dob);
+    
+    
     
 }
 function sumOfDigits(dob){
