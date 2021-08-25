@@ -1,2 +1,3 @@
-# birthday-lucky
- Take the user's birthday and his lucky number as a input and show the result
+# Is your Birthday lucky?
+
+ It takes the user's birthdate and his lucky number as an input and shows whether his birthdate is lucky or not.
