@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin:0rem;
+    padding: 0rem;
+}
+:root{
+    --liberty: #4A5899;
+    --ghost-white: #F6F8FF;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--liberty);
+    color: var(--ghost-white);
+}
+
+
+.container{
+    width: 30%;
+    margin:auto;
+}
+.hero-heading{
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 3rem 0rem 3rem 0rem;
+}
+.privacy-notice{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    border: 2px solid var(--ghost-white);
+    border-radius: .5rem;
+    width: 100%;
+    margin-bottom:3rem;
+    font-size: large;
+}
+input,label{
+    display: block;
+    margin: auto;
+    text-align: left;
+    padding: 0.5rem;
+    font-size: large;
+}
+#date-of-birth,#lucky-number{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--ghost-white);
+    border-radius: .5rem;
+    
+}
+
+button{
+    display: block ;
+    margin: auto;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    border: 1px solid var(--ghost-white);
+    border-radius: 0.5rem;
+    width: 50%;
+    height: 9vh;
+    font-size: large;
+    color:var(--ghost-white);
+    background-color: transparent;
+     
+}
+.date-block,.lucky-block{
+    margin-top: 2rem;
+    
+}
+#output-text{
+    width: 100%;
+    padding: 1rem;
+    font-size:x-large;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}    
