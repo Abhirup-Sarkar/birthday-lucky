@@ -7,10 +7,10 @@ var outputBox = document.querySelector("#output-text")
 
 function checkValues(sum,lucky){
     if(sum%lucky == 0){
-        outputBox.innerText="Your Birthday is lucky";
+        outputBox.innerText="🎉🎉Congrats! Your Birthday is lucky.🎉🎉";
     }
     else{
-        outputBox.innerText="Your birthday is not lucky";
+        outputBox.innerText="🎉🎉Your birthday is not lucky but don't worry you're still special🎉🎉";
     }
 }
 function sumOfDigits(dob){
