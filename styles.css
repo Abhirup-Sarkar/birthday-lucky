@@ -1,15 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-body{
-    font-family: 'Open Sans', sans-serif;
-}
 *{
     margin:0rem;
     padding: 0rem;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 
 
+.container{
+    width: 30%;
+    margin:auto;
+}
 .hero-heading{
     text-align: center;
-    font-weight: bold;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 3rem 0rem 3rem 0rem;
 }
+.privacy-notice{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    width: 100%;
+    margin-bottom:3rem;
+}
+input,label{
+    display: block;
+    margin: auto;
+    text-align: left;
+    padding: 0.5rem;
+    font-size: large;
+}
+#date-of-birth{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+#lucky-number{
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+button{
+    display: block ;
+    margin: auto;
+    padding: .5rem;
+    margin-top: 2rem;
+}
+.date-block,.lucky-block{
+    margin-top: 2rem;
+}    
