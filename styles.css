@@ -4,11 +4,7 @@
 }
 
 
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 600px;
-    padding: 1rem;
-
+.hero-heading{
+    text-align: center;
+    font-weight: bold;
 }
