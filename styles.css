@@ -56,13 +56,14 @@ button{
     padding: 0.5rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    border: 1px solid var(--ghost-white);
+    border: 2px solid var(--ghost-white);
     border-radius: 0.5rem;
     width: 50%;
     height: 9vh;
     font-size: large;
     color:var(--ghost-white);
     background-color: transparent;
+    font-weight: bold;
      
 }
 .date-block,.lucky-block{
@@ -77,4 +78,23 @@ button{
     display: block;
     margin: auto;
     margin-bottom: 2rem;
-}    
+}
+.footer-heading{
+    text-align: center;
+    margin: 1rem;
+    font-size: large;
+    font-weight: bold;
+}
+.social{
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem;
+    
+    margin-left: 2rem; 
+    margin-bottom: 1rem;
+}
+a{
+    text-decoration: none;
+    color: var(--ghost-white);
+}

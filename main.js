@@ -26,8 +26,16 @@ function checkBirthdayIsLucky() {
     var dob = dateOfBirth.value;
     var sum = sumOfDigits(dob);
     var lucky = luckyNumber.value;
+    if(lucky&&dob){
+        checkValues(sum,lucky);
+    }
+    else{
+        outputBox.innerText ="Please enter values in both of the fields. 😡"
+    }
+
+    
    
-    checkValues(sum,lucky)
+    
     
     
 }
